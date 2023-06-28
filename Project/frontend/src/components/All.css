@@ -1,0 +1,311 @@
+/*.container
+{
+   background-image: components/images/Background.png;
+}*/
+
+/*
+.navbar-navbar-expand-lg-navbar-light-bg-light
+{
+  background: black;  
+  
+}
+*/
+/*
+.btn
+{
+   transform: translate(0%,-50%)
+}
+
+.button
+{
+ 
+ color:darkorange;
+ width:170px;
+ height:30px;
+ font-family:Comic Sans MS,cursive;
+ font-size:20px;
+ border-color: rgb(199, 44, 44);
+ font-weight:600;
+ border-radius:50px;
+ letter-spacing:2px;
+ transition:1s; 
+}
+
+.button:hover
+{
+ cursor:pointer;
+ box-shadow: 0 2px 50px 0 red ,0 20px 100px 0  red;
+ transition:1s;
+ }
+
+*/
+
+
+.form-control
+{
+  width: 550px;
+}
+
+.form-group
+{
+  color: white;
+  font-family:Comic Sans MS,cursive;
+}
+
+.k
+
+{
+  font-size:18px;
+  background-color: #F2AA4CFF;
+  text-align:center;
+  font-family: Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: rgb(0, 0, 0);
+   
+}
+
+.nav-item
+{
+  background-color:white;
+  border: 2px solid #555555;
+
+  
+  
+}  
+/*
+.navbar-brand
+{
+ 
+}
+*/
+.back
+{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  width:100%;
+}
+
+.R
+{
+  color: rgb(0, 0, 0);
+}
+
+.article
+{
+    text-align:center;
+    margin-left:300px;
+    background: rgb(183, 201, 103);    
+    margin:0px 0px 0px 1px;
+    font-family:Comic Sans MS,cursive;
+    font-family: Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2
+{   
+    background: #101820FF;
+    color: #F2AA4CFF;
+    text-align:center;
+    margin:0px 0px 0px 1px;
+    font-family:Comic Sans MS,cursive;
+}
+
+.blank
+{   
+    color:white;
+    background: white;
+    text-align:center;
+    margin:0px 0px 0px 0px; 
+}
+
+h6
+{   
+    color:black;
+    background:#F2AA4CFF;
+    margin:0px 0px 0px 0px; 
+    vertical-align: bottom;
+ 
+}
+
+.noticetable
+{
+    border:1px solid
+}
+
+h4
+{
+    margin-left:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* font-family: Papyrus, "bold";*/
+}
+
+.content
+{   
+    margin:0px 5px 0px 5px;
+    background-color:rgb(167, 180, 164);
+    border:1 
+
+
+}
+
+h1
+{
+    background: rgb(118, 160, 216);
+    text-align:center;
+    font-family: Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn{
+    height: 45px;
+    width: 30%;
+    margin: 0px 100px 0px 200px;
+}
+
+.R{
+    color: white;
+}
+
+/* For the star rating  */
+
+
+.con{
+    position: relative;
+    width: 400px;
+    
+    background: rgb(12, 12, 12);
+    padding: 20px 30px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .con.post{
+    display: none;
+  }
+  .con.text{
+    font-size: 25px;
+    color: #666;
+    font-weight: 500;
+  }
+  .con.edit{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .con.edit:hover{
+    text-decoration: underline;
+  }
+  .con.star-widget input{
+    display: none;
+  }
+
+  
+ .con.star-widget label{
+    font-size: 40px;
+    color: #444;
+    padding: 10px;
+    float:right;
+    transition: all 0.2s ease;
+  }
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+  }
+  input:checked ~ label{
+    color: #fd4;
+  }
+  input#rate-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  #rate-1:checked ~ form header:before{
+    content: "I Just Love It 💖"; 
+    content: " 5 of 5";
+  
+  }
+  #rate-2:checked ~ form header:before{
+    content: "I Just Like It 😍";
+    content: " 4 of 5";
+  
+  }
+  #rate-3:checked ~ form header:before{
+    content: "It Is Awesome 😋";
+    content: " 3 of 5";
+  }
+  #rate-4:checked ~ form header:before{
+    content: "I Don't Like It 😏 ";
+    content: " 2 of 5";
+  }
+  #rate-5:checked ~ form header:before{
+    content: "I Just Hate It 😠 ";
+    content: " 1 of 5";
+  }
+
+/*for the button form*/  
+/*
+  .con form{
+    display: none;
+  }
+  input:checked ~ form{
+    display: block;
+  }
+  */
+  form header{
+    width: 100%;
+    font-size: 25px;
+    color: #fe7;
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+
+  
+  form.textarea{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+  }  
+  form.textarea textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #eee;
+    border: 1px solid #333;
+    background: #222;
+    padding: 10px;
+    font-size: 17px;
+    resize: none;
+  }
+  .textarea textarea:focus{
+    border-color: #444;
+  }
+
+  
+  .bton{
+    height: 45px;
+    width: 100%;
+    margin: 15px 0;
+  }
+  .bton button{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #444;
+    outline: none;
+    background: #222;
+    color: #999;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .bton button:hover{
+    background: #1b1b1b;
+  }
